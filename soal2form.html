@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registrasi</title>
+</head>
+
+<body>
+    <fieldset>
+        <table>
+            <form action="contact.php" method="POST">
+
+                <legend>Registrasi</legend>
+                <tr>
+                    <td><label>Nama:</label></td>
+                    <td><input type="text" name="nama" placeholder="Nama lengkap..." /></td>
+                </tr>
+                <tr>
+                    <td> <label>Email:</label></td>
+                    <td> <input type="email" name="email" placeholder="Your email..." /></td>
+                </tr>
+                <tr>
+                    <td> <label>Password:</label></td>
+                    <td> <input type="password" name="password" placeholder="Passowrd..." /></td>
+                </tr>
+                <tr>
+                    <td><label>Jenis kelamin:</label></td>
+                    <td><label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+                    <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label></td>
+                </tr>
+                <tr>
+                    <td> <label>Agama:</label></td>
+                    <td> <select name="agama">
+                            <option value="islam">Islam</option>
+                            <option value="kristen">Kristen</option>
+                            <option value="hindu">Hindu</option>
+                            <option value="budha">Budha</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Biografi:</label></td>
+                    <td><textarea name="biografi"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>Umur:</label></td>
+                    <td> <input type="text" name="Umur" placeholder="Umur"></td>
+                </tr>
+                <tr>
+                    <td> <label>Tanggal Lahir:</label></td>
+                    <td><input type="date" name="tanggal"></td>
+                </tr>
+                <tr>
+                    <td> <label>hobi:</label></td>
+                    <td> <label><input type="checkbox" name="futsal" value="futsal" />futsal</label>
+                        <label><input type="checkbox" name="basket" value="basket" />basket</label>
+                        <label><input type="checkbox" name="badminton" value="badminton" />badminton</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" name="submit" value="Daftar" /></td>
+                </tr>
+        </table>
+    </fieldset>
